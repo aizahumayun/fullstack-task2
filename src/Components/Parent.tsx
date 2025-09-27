@@ -6,6 +6,7 @@ import type { User } from "../types";
 import ProfileCard from "../ProfileCard";
 import type { UserCard } from "../types";
 import RateCard from "./RateCard";
+import AddFunc from "./AddFunc";
 
 const Parent = () => {
   const developers: Developer[] = [
@@ -267,6 +268,7 @@ const Parent = () => {
         <RateCard ratingCard={ratingCards[2]} />
         <RateCard ratingCard={ratingCards[3]} />
       </div>
+      <AddFunc no1={3} no2={5}/>
     </div>
   );
 };
