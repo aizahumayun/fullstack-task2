@@ -9,6 +9,7 @@ type DeveloperCard = {
 };
 const DeveloperCard = ({ developer }: DeveloperCard) => {
   const { title, subtitle, image, links } = developer;
+  const [linkedin, github, gmail] = links
   return (
     <div className="bg-white h-76 w-66 flex flex-col items-center justify-center rounded-lg shadow-lg pb-8 ">
       <div className="h-1/2 w-full bg-blue-500 -mt-3.5 flex items-end justify-center relative">
@@ -23,21 +24,21 @@ const DeveloperCard = ({ developer }: DeveloperCard) => {
         <h2 className="font-semibold text-gray-500">{subtitle}</h2>
       </div>
       <div className="flex items-center justify-start space-x-4 pt-2">
-        {links.linkedin ? (
-          <a href={links.linkedin} className="flex-1 text-center text-blue-500">
+        {linkedin ? (
+          <a href={linkedin} className="flex-1 text-center text-blue-500">
             <FaLinkedin />
           </a>
         ) : (
           <IoIosCloseCircle className="text-red-400 size-5" />
         )}
-        {links.github ? (
-          <a href={links.github} className="flex-1 text-center">
+        {github ? (
+          <a href={github} className="flex-1 text-center">
             <FaGithub />
           </a>
         ) : null}
-        {links.gmail ? (
+        {gmail? (
           <a
-            href={links.gmail}
+            href={gmail}
             className="flex-1 text-center text-red-400 font-bold text-xl"
           >
             <CgMail />
