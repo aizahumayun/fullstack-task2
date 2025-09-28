@@ -6,7 +6,6 @@ import type { User } from "../types";
 import ProfileCard from "../ProfileCard";
 import type { UserCard } from "../types";
 import RateCard from "./RateCard";
-import AddFunc from "./AddFunc";
 
 const Parent = () => {
   const developers: Developer[] = [
@@ -14,144 +13,121 @@ const Parent = () => {
       title: "Front-end Developer",
       subtitle: "Tech Job-Seeker",
       image: "https://placehold.co/110",
-      links: ["https://linkedin.com/", "https://github.com/", "Abc@gmail.com"],
-      // links: {
-      //   linkedin: "https://linkedin.com/",
-      //   github: "https://github.com/",
-      //   gmail: "Abc@gmail.com",
-      // },
+      links: {
+        linkedin: "https://linkedin.com/",
+        github: "https://github.com/",
+        gmail: "Abc@gmail.com",
+      },
     },
     {
       title: "Front-end Developer",
       subtitle: "Tech Job-Seeker",
       image: "https://placehold.co/110",
-      links: ["https://linkedin.com/", "https://github.com/", "Abc@gmail.com"],
-
-      // links: {
-      //   linkedin: "https://linkedin.com/",
-      //   github: "https://github.com/",
-      //   gmail: "Abc@gmail.com",
-      // },
+      links: {
+        linkedin: "https://linkedin.com/",
+        github: "https://github.com/",
+        gmail: "Abc@gmail.com",
+      },
     },
     {
       title: "Front-end Developer",
       subtitle: "Tech Job-Seeker",
       image: "https://placehold.co/110",
-      links: ["https://linkedin.com/", "https://github.com/", "Abc@gmail.com"],
-
-      // links: {
-      //   linkedin: "https://linkedin.com/",
-      //   github: "",
-      //   gmail: "Abc@gmail.com",
-      // },
+      links: {
+        linkedin: "https://linkedin.com/",
+        github: "",
+        gmail: "Abc@gmail.com",
+      },
     },
     {
       title: "Front-end Developer",
       subtitle: "Tech Job-Seeker",
       image: "https://placehold.co/110",
-      links: ["https://linkedin.com/", "https://github.com/", "Abc@gmail.com"],
-
-      // links: {
-      //   linkedin: "https://linkedin.com/",
-      //   github: "https://github.com/",
-      //   gmail: "Abc@gmail.com",
-      // },
+      links: {
+        linkedin: "https://linkedin.com/",
+        github: "https://github.com/",
+        gmail: "Abc@gmail.com",
+      },
     },
     {
       title: "Front-end Developer",
       subtitle: "Tech Job-Seeker",
       image: "https://placehold.co/110",
-      links: ["https://linkedin.com/", "https://github.com/", "Abc@gmail.com"],
-
-      // links: {
-      //   linkedin: "https://linkedin.com/",
-      //   github: "https://github.com/",
-      //   gmail: "Abc@gmail.com",
-      // },
+      links: {
+        linkedin: "https://linkedin.com/",
+        github: "https://github.com/",
+        gmail: "Abc@gmail.com",
+      },
     },
     {
       title: "Front-end Developer",
       subtitle: "Tech Job-Seeker",
       image: "https://placehold.co/110",
-      links: ["https://linkedin.com/", "https://github.com/", "Abc@gmail.com"],
-
-      // links: {
-      //   linkedin: "https://linkedin.com/",
-      //   github: "https://github.com/",
-      //   gmail: "",
-      // },
+      links: {
+        linkedin: "https://linkedin.com/",
+        github: "https://github.com/",
+        gmail: "",
+      },
     },
     {
       title: "Front-end Developer",
       subtitle: "Tech Job-Seeker",
       image: "https://placehold.co/110",
-      links: ["https://linkedin.com/", "https://github.com/", "Abc@gmail.com"],
-
-      // links: {
-      //   linkedin: "https://linkedin.com/",
-      //   github: "https://github.com/",
-      //   gmail: "Abc@gmail.com",
-      // },
+      links: {
+        linkedin: "https://linkedin.com/",
+        github: "https://github.com/",
+        gmail: "Abc@gmail.com",
+      },
     },
     {
       title: "Front-end Developer",
       subtitle: "Tech Job-Seeker",
       image: "https://placehold.co/110",
-      links: ["https://linkedin.com/", "https://github.com/", "Abc@gmail.com"],
-
-      // links: {
-      //   linkedin: "https://linkedin.com/",
-      //   github: "https://github.com/",
-      //   gmail: "Abc@gmail.com",
-      // },
+      links: {
+        linkedin: "https://linkedin.com/",
+        github: "https://github.com/",
+        gmail: "Abc@gmail.com",
+      },
     },
     {
       title: "Front-end Developer",
       subtitle: "Tech Job-Seeker",
       image: "https://placehold.co/110",
-      links: ["https://linkedin.com/", "https://github.com/", "Abc@gmail.com"],
-
-      // links: {
-      //   linkedin: "",
-      //   github: "https://github.com/",
-      //   gmail: "Abc@gmail.com",
-      // },
+      links: {
+        linkedin: "",
+        github: "https://github.com/",
+        gmail: "Abc@gmail.com",
+      },
     },
     {
       title: "Front-end Developer",
       subtitle: "Tech Job-Seeker",
       image: "https://placehold.co/110",
-      links: ["https://linkedin.com/", "https://github.com/", "Abc@gmail.com"],
-
-      // links: {
-      //   linkedin: "https://linkedin.com/",
-      //   github: "https://github.com/",
-      //   gmail: "Abc@gmail.com",
-      // },
+      links: {
+        linkedin: "https://linkedin.com/",
+        github: "https://github.com/",
+        gmail: "Abc@gmail.com",
+      },
     },
     {
       title: "Front-end Developer",
       subtitle: "Tech Job-Seeker",
       image: "https://placehold.co/110",
-      links: ["https://linkedin.com/", "https://github.com/", "Abc@gmail.com"],
-
-      // links: {
-      //   linkedin: "https://linkedin.com/",
-      //   github: "https://github.com/",
-      //   gmail: "Abc@gmail.com",
-      // },
+      links: {
+        linkedin: "https://linkedin.com/",
+        github: "https://github.com/",
+        gmail: "Abc@gmail.com",
+      },
     },
     {
       title: "Front-end Developer",
       subtitle: "Tech Job-Seeker",
       image: "https://placehold.co/110",
-      links: ["https://linkedin.com/", "https://github.com/", "Abc@gmail.com"],
-
-      // links: {
-      //   linkedin: "https://linkedin.com/",
-      //   github: "https://github.com/",
-      //   gmail: "Abc@gmail.com",
-      // },
+      links: {
+        linkedin: "https://linkedin.com/",
+        github: "https://github.com/",
+        gmail: "Abc@gmail.com",
+      },
     },
   ];
   const flags: Flag[] = [
@@ -207,34 +183,34 @@ const Parent = () => {
 
   const ratingCards: UserCard[] = [
     {
-      id: 1,
-      name: "Dean Houston",
-      designation: "Full Stack Developer",
-      rate: 35,
-      picture: "https://placehold.co/75",
-    },
-    {
-      id: 2,
-      name: "Austin Shaw",
-      designation: "UI/UX Designer",
-      rate: 45,
-      picture: "https://placehold.co/75",
-    },
-    {
-      id: 3,
-      name: "Talan Dias",
-      designation: "CSS Specialist",
-      rate: 20,
-      picture: "https://placehold.co/75",
-    },
-    {
-      id: 4,
-      name: "Thomas Farmer",
-      designation: "UX Designer",
-      rate: 55,
-      picture: "https://placehold.co/75",
-    },
-  ];
+    id: 1,
+    name: "Dean Houston",
+    designation: "Full Stack Developer",
+    rate: 35,
+    picture: "https://placehold.co/75"
+  },
+  {
+    id: 2,
+    name: "Austin Shaw",
+    designation: "UI/UX Designer",
+    rate: 45,
+    picture: "https://placehold.co/75"
+  },
+  {
+    id: 3,
+    name: "Talan Dias",
+    designation: "CSS Specialist",
+    rate: 20,
+    picture: "https://placehold.co/75"
+  },
+  {
+    id: 4,
+    name: "Thomas Farmer",
+    designation: "UX Designer",
+    rate: 55,
+    picture: "https://placehold.co/75"
+  },
+  ]
   return (
     <div>
       <div className="flex gap-9 flex-wrap ">
@@ -263,12 +239,11 @@ const Parent = () => {
       </div>
 
       <div className="flex gap-9 flex-wrap mt-9  bg-gradient-to-tr  from-orange-300 to-rose-400 to-95% items-center justify-center">
-        <RateCard ratingCard={ratingCards[0]} />
-        <RateCard ratingCard={ratingCards[1]} />
-        <RateCard ratingCard={ratingCards[2]} />
-        <RateCard ratingCard={ratingCards[3]} />
+        <RateCard ratingCard={ratingCards[0]}/>
+        <RateCard ratingCard={ratingCards[1]}/>
+        <RateCard ratingCard={ratingCards[2]}/>
+        <RateCard ratingCard={ratingCards[3]}/>
       </div>
-      <AddFunc no1={3} no2={5}/>
     </div>
   );
 };
